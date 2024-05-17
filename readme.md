@@ -6,7 +6,7 @@ Script logic<br>
   3.调用Ashro_url_alive.py进行web资产识别<br>
   4.进行nmap结果与web资产结果做资产聚合<br>
   5.调用afrog工具进行资产漏扫。<br>
-  6.windows弱口令检查-请使用超级弱口令检查工具/TOols/超级弱口令检查工具<br>
+  6.windows弱口令检查-请使用超级弱口令检查工具    /TOols/超级弱口令检查工具<br>
   7.linux弱口令检查-shaow文件爆破工具 我没放-😉
 
 最后生成文件如下：
