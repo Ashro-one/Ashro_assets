@@ -1,18 +1,18 @@
-用于企业资产梳理的自动化脚本。 目前速率单一C段资产内不多的情况下，大约3-4小时可以搞完一个C。实际工作量应适当延长。
+用于企业资产梳理的自动化脚本。 速度很快，体验飞一般的感觉。
 
 Script logic<br>
-  1.调用masscan针对ip.txt内的目标进行全端口扫描<br>
-  2.调用nmap对masscan的开放端口进行验证以及服务信息识别<br>
-  3.调用Ashro_url_alive.py进行web资产识别<br>
-  4.进行nmap结果与web资产结果做资产聚合<br>
-  5.调用afrog工具进行资产漏扫。<br>
-  6.windows弱口令检查-请使用超级弱口令检查工具    /TOols/超级弱口令检查工具<br>
-  7.linux弱口令检查-shaow文件爆破工具 我没放-😉
+  1.调用fscan针对ip.txt内的目标进行全端口扫描<br>
+  2.调用nmap针对开放端口进行验证以及服务信息识别<br>
+  3.进行nmap结果与web资产结果做资产聚合<br>
+  4.调用afrog工具进行资产漏扫。<br>
+  5.windows弱口令检查-请使用超级弱口令检查工具    /TOols/超级弱口令检查工具<br>
+  6.linux弱口令检查-shaow文件爆破工具       /TOols/shadow文件弱口令
+
 
 最后生成文件如下：
 
-  /output//result.csv          ：资产梳理结果文件<br>
-  /output/{current_time}.html  ：漏洞扫描文件结果<br>
+  /output//nmap_result.csv          ：调用nmap进行服务探测生成的资产梳理结果文件<br>
+  /output/{current_time}.html       ：漏洞扫描文件结果<br>
   
 
 Usge： 
@@ -20,9 +20,27 @@ Usge：
 
   python -m pip install -r requirements.txt
   
-  python Ashro_assets.py  -afrog      #-afrog 进行漏洞扫描，默认不开启
+  python Ashro_assets.py  -afrog   -nmap   #-afrog 进行漏洞扫描，默认不开启  -nmap 调用nmap进行端口服务识别  默认不开启，开启后会很慢，但是结果会很清晰
 
-  <img width="689" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/9e246301-c8ff-4b6e-8439-f85f56cf3eac">
+  具体结果如下：
+  <img width="796" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/cc10656c-2b86-417e-9c43-ee004d725c90">
+  <img width="1271" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/b03c3f8f-15fa-43de-9afe-44d6d0b3c688">
+
+  <img width="970" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/c9522e81-1e8d-4804-9946-15fc8ec644e0">
+
+  精简快速扫描：
+  <img width="782" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/1ab35771-400d-48c2-bc36-e1a2d7a6cca5">
+
+
+  最后输出文件解释：<br>
+  ip.txt                  fscan端口扫描结果<br>
+  nmap_result.csv         调用nmap扫描服务探测资产汇总文件<br>
+  nonmap_result.csv       不调用nmap扫描服务探测资产汇总文件<br>
+  open_ports.csv          端口开放汇总文件<br>
+  url_result.csv          web网站存活结果文件<br>
+  
+  
+
 
 
 
