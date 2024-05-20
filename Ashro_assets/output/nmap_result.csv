@@ -1,0 +1,29 @@
+ipaddress,port,status,servers,bios,ip:port,url,status_code,content_length,title
+192.168.1.16,135,open,msrpc,Microsoft Windows RPC,192.168.1.16:135,,,,
+192.168.1.16,139,open,netbios-ssn,Microsoft Windows netbios-ssn,192.168.1.16:139,,,,
+127.0.0.1,135,open,msrpc,Microsoft Windows RPC,127.0.0.1:135,,,,
+192.168.1.16,445,open,microsoft-ds?,Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .,192.168.1.16:445,,,,
+127.0.0.1,445,open,microsoft-ds?,Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .,127.0.0.1:445,,,,
+127.0.0.1,3443,open,ssl/http,Ajenti http control panel,127.0.0.1:3443,https://127.0.0.1:3443,200.0,10399.0,Acunetix
+127.0.0.1,4222,open,vrml-multi-use?,"1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :",127.0.0.1:4222,,,,
+127.0.0.1,5040,open,unknown,Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .,127.0.0.1:5040,,,,
+192.168.1.16,5040,open,unknown,Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .,192.168.1.16:5040,,,,
+127.0.0.1,6942,open,unknown,"1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :",127.0.0.1:6942,,,,
+192.168.1.16,7880,open,ssl/pss?,"1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :",192.168.1.16:7880,https://192.168.1.16:7880,404.0,14.0,None
+127.0.0.1,7880,open,ssl/pss?,"1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :",127.0.0.1:7880,https://127.0.0.1:7880,404.0,14.0,None
+127.0.0.1,9800,open,ssl/websocket,WebSocket++ 0.8.1,127.0.0.1:9800,https://127.0.0.1:9800,426.0,0.0,None
+192.168.1.16,9800,open,ssl/websocket,WebSocket++ 0.8.1,192.168.1.16:9800,https://192.168.1.16:9800,426.0,0.0,None
+127.0.0.1,35432,open,unknown,Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .,127.0.0.1:35432,,,,
+192.168.1.16,49664,open,msrpc,Microsoft Windows RPC,192.168.1.16:49664,,,,
+127.0.0.1,49665,open,msrpc,Microsoft Windows RPC,127.0.0.1:49665,,,,
+127.0.0.1,49664,open,msrpc,Microsoft Windows RPC,127.0.0.1:49664,,,,
+192.168.1.16,49671,open,msrpc,Microsoft Windows RPC,192.168.1.16:49671,,,,
+192.168.1.16,49668,open,msrpc,Microsoft Windows RPC,192.168.1.16:49668,,,,
+127.0.0.1,49671,open,msrpc,Microsoft Windows RPC,127.0.0.1:49671,,,,
+127.0.0.1,49666,open,msrpc,Microsoft Windows RPC,127.0.0.1:49666,,,,
+127.0.0.1,49668,open,msrpc,Microsoft Windows RPC,127.0.0.1:49668,,,,
+192.168.1.16,49667,open,msrpc,Microsoft Windows RPC,192.168.1.16:49667,,,,
+192.168.1.16,49666,open,msrpc,Microsoft Windows RPC,192.168.1.16:49666,,,,
+127.0.0.1,49667,open,msrpc,Microsoft Windows RPC,127.0.0.1:49667,,,,
+192.168.1.16,49665,open,msrpc,Microsoft Windows RPC,192.168.1.16:49665,,,,
+127.0.0.1,63342,open,ssl/http,PyCharm 2021.2,127.0.0.1:63342,https://127.0.0.1:63342,404.0,92.0,404 Not Found

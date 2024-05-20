@@ -1,0 +1,4 @@
+ip:port,url,status_code,content_length,title
+127.0.0.1:3443,https://127.0.0.1:3443,200,10399,Acunetix
+127.0.0.1:7880,https://127.0.0.1:7880,404,14,None
+127.0.0.1:9800,https://127.0.0.1:9800,426,0,None
