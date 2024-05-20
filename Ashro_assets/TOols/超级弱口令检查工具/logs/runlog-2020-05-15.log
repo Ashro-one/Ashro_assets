@@ -1,0 +1,6 @@
+检查216.83.53.21:MySQL登录发生异常！Keyword not supported.
+参数名: ';pooling   在 SNETCracker.Model.CrackMySQL.creack(String ip, Int32 port, String username, String password, Int32 timeOut)
+   在 SNETCracker.Main.crackerService(String crakerstring, String username, String password)
+检查216.83.53.21:MySQL登录发生异常！Keyword not supported.
+参数名: ';pooling   在 SNETCracker.Model.CrackMySQL.creack(String ip, Int32 port, String username, String password, Int32 timeOut)
+   在 SNETCracker.Main.crackerService(String crakerstring, String username, String password)

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="SNETCracker.exe" version="1.2019.03.22" processorArchitecture="x86" type="win32" />
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+             如果想要更改 Windows 用户帐户控制级别，请使用
+             以下节点之一替换 requestedExecutionLevel 节点。n
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 元素将禁用文件和注册表虚拟化。
+            如果你的应用程序需要此虚拟化来实现向后兼容性，则删除此
+            元素。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <file name="mstscax.dll" asmv2:size="7897088">
+    <hash xmlns="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YVcWudnaOk7ctmYmb9EvxhVQt4c=</dsig:DigestValue>
+    </hash>
+    <typelib tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" version="1.0" helpdir="" resourceid="0" flags="HASDISKIMAGE" />
+    <comClass clsid="{a41a4187-5a86-4e26-b40a-856f9035d9cb}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.1" description="Microsoft Terminal Services Client Control - version 1" />
+    <comClass clsid="{7cacbd7b-0d99-468f-ac33-22e495c0afe5}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.2" description="Microsoft RDP Client Control - version 2" />
+    <comClass clsid="{3523c2fb-4031-44e4-9a3b-f1e94986ee7f}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.3" description="Microsoft RDP Client Control - version 3" />
+    <comClass clsid="{9059f30f-4eb1-4bd2-9fdc-36f43a218f4a}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.2" description="Microsoft RDP Client Control (redistributable) - version 3" />
+    <comClass clsid="{971127bb-259f-48c2-bd75-5f97a3331551}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.2.a" description="Microsoft RDP Client Control (redistributable) - version 3a" />
+    <comClass clsid="{ace575fd-1fcf-4074-9401-ebab990fa9de}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.4" description="Microsoft RDP Client Control - version 4" />
+    <comClass clsid="{7584c670-2274-4efb-b00b-d6aaba6d3850}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.3" description="Microsoft RDP Client Control (redistributable) - version 4" />
+    <comClass clsid="{6a6f4b83-45c5-4ca9-bdd9-0d81c12295e4}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.3.a" description="Microsoft RDP Client Control (redistributable) - version 4a" />
+    <comClass clsid="{6ae29350-321b-42be-bbe5-12fb5270c0de}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.5" description="Microsoft RDP Client Control - version 5" />
+    <comClass clsid="{4edcb26c-d24c-4e72-af07-b576699ac0de}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.4" description="Microsoft RDP Client Control (redistributable) - version 5" />
+    <comClass clsid="{54ce37e0-9834-41ae-9896-4dab69dc022b}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.4.a" description="Microsoft RDP Client Control (redistributable) - version 5a" />
+    <comClass clsid="{4eb2f086-c818-447e-b32c-c51ce2b30d31}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.6" description="Microsoft RDP Client Control - version 6" />
+    <comClass clsid="{4eb89ff4-7f78-4a0f-8b8d-2bf02e94e4b2}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.5" description="Microsoft RDP Client Control (redistributable) - version 6" />
+    <comClass clsid="{d2ea46a7-c2bf-426b-af24-e19c44456399}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.7" description="Microsoft RDP Client Control - version 7" />
+    <comClass clsid="{7390f3d8-0439-4c05-91e3-cf5cb290c3d0}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.6" description="Microsoft RDP Client Control (redistributable) - version 7" />
+    <comClass clsid="{54d38bf7-b1ef-4479-9674-1bd6ea465258}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.8" description="Microsoft RDP Client Control - version 8" />
+    <comClass clsid="{a9d7038d-b5ed-472e-9c47-94bea90a5910}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.7" description="Microsoft RDP Client Control (redistributable) - version 8" />
+    <comClass clsid="{a3bc03a0-041d-42e3-ad22-882b7865c9c5}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.9" description="Microsoft RDP Client Control - version 9" />
+    <comClass clsid="{5f681803-2900-4c43-a1cc-cf405404a676}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.8" description="Microsoft RDP Client Control (redistributable) - version 9" />
+    <comClass clsid="{8b918b82-7985-4c24-89df-c33ad2bbfbcd}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.10" description="Microsoft RDP Client Control - version 10" />
+    <comClass clsid="{301b94ba-5d25-4a12-bffe-3b6e7a616585}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.9" description="Microsoft RDP Client Control (redistributable) - version 10" />
+    <comClass clsid="{a0c63c30-f08d-4ab4-907c-34905d770c7d}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.11" description="Microsoft RDP Client Control - version 11" />
+    <comClass clsid="{c0efa91a-eeb7-41c7-97fa-f0ed645efb24}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.10" description="Microsoft RDP Client Control (redistributable) - version 11" />
+    <comClass clsid="{1df7c823-b2d4-4b54-975a-f2ac5d7cf8b8}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsTscAx.MsTscAx.12" description="Microsoft RDP Client Control - version 12" />
+    <comClass clsid="{22a7e88c-5bf5-4de6-b687-60f7331df190}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="MsRDP.MsRDP.11" description="Microsoft RDP Client Control (redistributable) - version 12" />
+    <comClass clsid="{eab16c5d-eed1-4e95-868b-0fba1b42c092}" threadingModel="Apartment" tlbid="{8c11efa1-92c3-11d1-bc1e-00c04fa31489}" progid="RemoteDesktopClient.RemoteDesktopClient.1" description="Microsoft Windows Store App Remote Desktop Client Control - version 1" />
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 设计此应用程序与其一起工作且已针对此应用程序进行测试的
+           Windows 版本的列表。取消评论适当的元素，Windows 将
+           自动选择最兼容的环境。 -->
+      <!-- Windows Vista -->
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+      <!-- Windows 7 -->
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />
+      <!-- Windows 8 -->
+      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />
+      <!-- Windows 8.1 -->
+      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />
+      <!-- Windows 10 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+    </application>
+  </compatibility>
+</assembly>

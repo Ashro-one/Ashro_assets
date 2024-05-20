@@ -1,0 +1,27 @@
+扫描模式:mix 扫描文件:财务公司_弱口令检查 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow-172.16.9.16 : 
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_10.110.4.48 : 
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_10.110.4.51 : 
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_10.110.4.54 : 
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_10.110.4.59 : 
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_172.16.1.12 : 
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_172.16.1.125 : 
+Loaded 3 password hashes with 3 different salts (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+weblogic         (weblogic)
+skapp01          (skapp01)
+Loaded 3 password hashes with 3 different salts (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+ 
+C:\Users\A\Desktop\资产调研表(1)\资产调研表\财务公司\财务公司_弱口令检查\shadow_172.16.1.126 : 
+Loaded 4 password hashes with 4 different salts (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Loaded 4 password hashes with 4 different salts (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+ 
