@@ -22,7 +22,7 @@ Usge：
   
   python Ashro_assets.py  -afrog   -nmap   #-afrog 进行漏洞扫描，默认不开启  -nmap 调用nmap进行端口服务识别  默认不开启，开启后会很慢，但是结果会很清晰
 
-具体结果如下：<>
+具体结果如下：<br>
   <img width="796" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/cc10656c-2b86-417e-9c43-ee004d725c90">
   <img width="1271" alt="image" src="https://github.com/Ashro-one/Ashro_assets/assets/49979071/b03c3f8f-15fa-43de-9afe-44d6d0b3c688">
 
