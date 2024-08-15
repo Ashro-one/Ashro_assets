@@ -38,4 +38,8 @@ Usge：
   nonmap_result.csv       不调用nmap扫描服务探测资产汇总文件<br>
   open_ports.csv          端口开放汇总文件<br>
   url_result.csv          web网站存活结果文件<br>
+
+
+
+  2024/8/25    改个小bug fscan 扫描出来的网页标题出现汉字识别不了情况
   
