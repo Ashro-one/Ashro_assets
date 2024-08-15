@@ -82,7 +82,7 @@ def fscan_scan():
 #提取开放的url
 def fscan_web():
     # 读取文件内容
-    with open('.\\output\\fscan.txt', 'r') as file:
+    with open('.\\output\\fscan.txt', 'r'，encoding='utf-8') as file:
         lines = file.readlines()
 
     # 提取包含 WebTitle 的行
